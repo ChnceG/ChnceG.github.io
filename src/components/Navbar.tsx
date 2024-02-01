@@ -13,7 +13,6 @@ export default function Navbar(): JSX.Element {
                 <h1 className='text-3xl m-3'>projects</h1>
                 <h1 className='text-3xl m-3'>contact</h1>
             </div>
-            
         </nav>
     );
 }
