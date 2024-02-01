@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+}
+
+h1 {
+    font-family: 'Impact', sans-serif;
+}
+
+p {
+    font-family: 'Cambria', sans-serif;
+}
+
+b {
+    font-family: 'Cambria', sans-serif;
+    color: #EF233C;
+}
