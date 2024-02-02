@@ -7,7 +7,7 @@ interface InfoBoxProps {
 
 export default function InfoBox({ children, className }: InfoBoxProps): JSX.Element {
     return (
-        <div className={`${className} border-boldred border-2`}>
+        <div className={`${className} border-bold-red border-2`}>
             {children}
         </div>
     )

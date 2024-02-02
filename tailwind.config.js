@@ -8,8 +8,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'boldred': '#EF233C',
-      }
+        'bold-red': '#EF233C',
+        'text-offwhite': '#EDF2F4',
+        'background-blue': '#2B2D42',
+      },
+      fontFamily: {
+        'impact': ['Impact', 'sans-serif'],
+      },
+
     },
   },
   plugins: [],
