@@ -22,3 +22,13 @@ b {
     font-family: 'Cambria', sans-serif;
     color: #EF233C;
 }
+
+.accordion {
+    transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+  }
+  
+  .accordion-open {
+    max-height: 500px;
+  }
