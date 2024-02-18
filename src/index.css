@@ -16,19 +16,16 @@ h1 {
 
 p {
     font-family: 'Cambria', sans-serif;
+    background-color: #252738;
 }
 
 b {
     font-family: 'Cambria', sans-serif;
     color: #EF233C;
+    background-color: #252738;
 }
 
-.accordion {
-    transition: max-height 0.5s ease-in-out;
-    overflow: hidden;
-    max-height: 0;
-  }
-  
-  .accordion-open {
-    max-height: 500px;
-  }
+.active {
+    color: #EF233C;
+
+}

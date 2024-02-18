@@ -12,6 +12,7 @@ export default {
         'bold-red': '#EF233C',
         'text-offwhite': '#EDF2F4',
         'background-blue': '#2B2D42',
+        'background-darkblue': '#252738',
       },
       fontFamily: {
         'impact': ['Impact', 'sans-serif'],
