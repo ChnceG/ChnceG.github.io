@@ -29,14 +29,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, image, description, co
   };
 
   return (
-    <div className={`project-card w-[400px] hover:scale-105 duration-300 m-5 p-2 bg-background-darkblue border-2 border-bold-red`} onClick={handleToggle}>
-      <b className='text-text-offwhite bg-background-darkblue'>{title}</b>
+    <div className={`w-[400px] hover:scale-105 duration-300 m-5 p-2 bg-background-darkblue border-2 border-bold-red`} onClick={handleToggle}>
+      <b className="text-text-offwhite bg-background-darkblue">{title}</b>
       <img src={imageMap[image]} alt={title} className={`transition-filter duration-300 hover:filter-none grayscale${isExpanded ? '-0' : ''}`} />
       {isExpanded && (
         <div className="flex flex-col gap-2 mt-4 bg-background-darkblue">
           <p>{description}</p>
           <p>{content}</p>
-          <a className='bg-background-darkblue font-serif' href={link}>
+          <a className="bg-background-darkblue font-serif" href={link}>
           <b> Check this out on github </b>
           </a>
         </div>

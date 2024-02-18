@@ -20,7 +20,7 @@ const SocialIcons: React.FC<SocialIconsProps> = ({ className }) => {
         src={instagram}
         alt="Instagram"
         className="cursor-pointer my-2 w-6 h-6"
-        onClick={() => handleIconClick("https://www.instagram.com/your_instagram_username/")}
+        onClick={() => handleIconClick("https://www.instagram.com/")}
       />
       <div className="h-full mx-2"></div>
       <img

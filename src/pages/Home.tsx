@@ -29,7 +29,7 @@ export default function Home() {
                     <div>
                         <h1 className='text-2xl bg-background-darkblue'> About me </h1>
                         <p className='text-xl'>
-                            I'm 23 years old, born in Newfoundland, and have been living in Nova Scotia for my entire life. My goal is to make cool stuff and be proud of the work I do.
+                            I was born in Newfoundland, and have been living in Nova Scotia for my entire life. My goal is to make cool stuff and be proud of the work I do.
                             I don't particularly prefer front-end or back-end, I'm interested in both and learn what I can. 
                         </p>
                     </div>
