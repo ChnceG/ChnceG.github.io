@@ -36,7 +36,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, image, description, co
         <div className="flex flex-col gap-2 mt-4 bg-background-darkblue">
           <p>{description}</p>
           <p>{content}</p>
-          <a className="bg-background-darkblue font-serif" href={link}>
+          <a className="bg-background-darkblue font-serif" target="_blank" href={link}>
           <b> Check this out on github </b>
           </a>
         </div>
