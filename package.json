@@ -1,6 +1,7 @@
 {
   "name": "portfolio-remake",
   "private": true,
+  "homepage": "https://chnceg.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
