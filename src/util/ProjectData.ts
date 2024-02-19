@@ -18,6 +18,6 @@ export const projectData = [
         image: 'oldportfolio',
         description: 'My old portfolio website made with HTML, CSS, and Bootstrap',
         content: 'This is the original website that this one is based on. It was my second time making a portfolio and it helped teach me the ins and outs of web development.',
-        link: 'https://github.com/ChnceG/ChnceG.github.io',
+        link: 'https://github.com/ChnceG/2023-Portfolio',
     }
 ];
