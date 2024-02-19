@@ -9,8 +9,8 @@ export default function Home() {
                 <InfoBox className="h-[400px] self-center">
                 <div className="p-5 w-[500px] bg-background-darkblue">
                     <p className="text-2xl mb-2">Hey, my names Chance</p>
-                    <p className="text-2xl mb-2">I"m a student at NSCC ECampus and an <i><b>aspiring developer</b></i></p>
-                    <p className="text-2xl mb-2">I"m looking for <i><b>job opportunities</b></i> to make cool stuff and further my career</p>
+                    <p className="text-2xl mb-2">I'm a student at NSCC ECampus and an <i><b>aspiring developer</b></i></p>
+                    <p className="text-2xl mb-2">I'm looking for <i><b>job opportunities</b></i> to make cool stuff and further my career</p>
                     <div className="flex justify-center bg-background-darkblue">
                         <Button className="m-3">
                             Contact Me
