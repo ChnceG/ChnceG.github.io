@@ -1,0 +1,75 @@
+import React from "react"
+import "../index.css"
+
+import git from '../assets/socialLinks/git.png';
+import gittool from '../assets/devImg/gittool.png';
+import cplusplus from '../assets/devImg/cplusplus.png';
+import css from '../assets/devImg/css.png';
+import docker from '../assets/devImg/docker.png';
+import java from '../assets/devImg/java.png';
+import node from '../assets/devImg/node.png';
+import post from '../assets/devImg/post.png';
+import react from '../assets/devImg/react.png';
+import sql from '../assets/devImg/sql.png';
+import ssh from '../assets/devImg/ssh.png';
+import typescript from '../assets/devImg/typescript.png';
+import vue from '../assets/devImg/vue.png';
+
+interface Skill {
+    name: string;
+    experience: string;
+    image: string;
+    colour: string;
+}
+
+export interface GraphProps {
+    data: Skill[];
+    title: string;
+    className?: string;
+}
+
+type ImageMap = {
+    [key: string]: string;
+}
+
+const imageMap: ImageMap = {
+    git,
+    gittool,
+    cplusplus,
+    css,
+    docker,
+    java,
+    node,
+    post,
+    react,
+    sql,
+    ssh,
+    typescript,
+    vue
+}
+
+const SkillsGraph: React.FC<GraphProps> = ({ className, data, title }: GraphProps): JSX.Element => {
+    return (
+        <div className={` ${className} `}>
+            <h1 className="text-xl text-center underline underline-offset-8 decoration-[#d72638]">{title}</h1>
+            <div className="flex m-3 h-[450px]">
+                <div className="flex flex-col gap-20 p-2">
+                    <p className="border-b-2 border-[#eee]">Expert</p>
+                    <p className="border-b-2 border-[#eee]">Proficient</p>
+                    <p className="border-b-2 border-[#eee]">Comfortable</p>
+                    <p className="border-b-2 border-[#eee]">Learning</p>
+                </div>
+                {data.map(({ name, experience, image, colour}) => (
+                    <div key={ name } className="flex flex-col justify-end items-center"> 
+                        <div className="flex items-center w-[80px]" style={{ height: `${Number(experience) * 400}px`, backgroundColor: colour }}> 
+                            <img src={imageMap[image]} alt="skill" className="mx-auto w-[60px] h-[60px] "/>
+                        </div>
+                        <p className="text-center border-b-2 border-[#eee]">{ name }</p>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+};
+
+export default SkillsGraph;
