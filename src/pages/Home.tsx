@@ -46,27 +46,27 @@ export default function Home() {
             <div className="flex-grow flex items-center justify-evenly">
                 <div className="flex flex-col text-center">
                     <section className="bg-[#eee]/5 backdrop-blur-sm p-4 rounded-xl shadow-lg">
-                        <h1 className="text-9xl mr-32 mb-4 decoration-[#d72638] underline underline-offset-[16px]">Chance</h1>
-                        <h1 className="text-9xl ml-32 mb-8 decoration-[#d72638] underline underline-offset-[16px]">Grandy</h1>
+                        <h1 className="~lg/sm:~text-9xl/4xl mr-32 mb-4 decoration-[#d72638] underline underline-offset-[16px]">Chance</h1>
+                        <h1 className="~lg/sm:~text-9xl/4xl ml-32 mb-8 decoration-[#d72638] underline underline-offset-[16px]">Grandy</h1>
                         <div className="flex flex-col h-[50px] mx-auto mb-3  font-inter">
-                            <a href="https://www.github.com/chnceg" target="_blank" className="flex gap-2 self-center text-2xl font-bold hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
+                            <a href="https://www.github.com/chnceg" target="_blank" className="flex gap-2 self-center ~lg/sm:~text-2xl/lg font-bold hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
                                 <img src={gitIcon} alt='Github Icon' className="w-[25px] h-[25px] self-center"/>
                                 chnceg
                             </a>
-                            <a href="mailto:cbgrandy@gmail.com" target="_blank" className="flex self-center items-center text-xl font-bold hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
+                            <a href="mailto:cbgrandy@gmail.com" target="_blank" className="flex self-center items-center ~lg/sm:~text-xl/md font-bold hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
                                 <img src={emailIcon} alt="Email Icon" className="w-6 h-6 mr-2" />
                                 cbgrandy@gmail.com
                             </a>
                         </div>
-                        <p className="text-lg">
+                        <p className="~lg/sm:~text-lg/sm">
                             Full-stack dev | Recent Graduate | Constantly learning
                         </p>
-                        <p className="text-lg italic my-2 text-zinc-400">
+                        <p className="~lg/sm:~text-lg/sm italic my-2 text-zinc-400">
                             I just want to make cool stuff.
                         </p>
                     </section>
                 </div>
-                <div className="w-[350px] h-[450px] overflow-hidden relative rounded-xl border-8 border-[#d72638] bg-[#111]">
+                <div className="w-[35%] h-[45%] overflow-hidden relative rounded-xl border-8 border-[#d72638] bg-[#111]">
                     <img
                         src={images[currentIndex].src}
                         alt="Profile Picture"
@@ -77,7 +77,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-[20%] flex justify-evenly py-6 gap-12 underline underline-offset-8 decoration-[#d72638] font-impact text-4xl">
+            <div className="w-full h-[20%] flex justify-evenly py-6 gap-12 underline underline-offset-8 decoration-[#d72638] font-impact ~lg/sm:~text-4xl/lg">
                 <Link
                     to="skills"
                     smooth={true}

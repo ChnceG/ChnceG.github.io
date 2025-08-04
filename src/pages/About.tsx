@@ -1,7 +1,7 @@
-import cntower from "../assets/selfImg/cntower.jpg"
-import downtownmtl from "../assets/selfImg/downtownmtl.jpg"
-import mtlsign from "../assets/selfImg/mtlsign.jpg"
-import porthope from "../assets/selfImg/porthope.jpg"
+import climb from "../assets/selfImg/climb.jpg"
+import austin from "../assets/selfImg/austin.jpg"
+import gamer from "../assets/selfImg/gamer.jpg"
+import levi from "../assets/selfImg/levi.jpg"
 
 export default function About() {
     return (
@@ -23,16 +23,16 @@ export default function About() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {[
-                        { src: cntower, label: "Placeholder" },
-                        { src: mtlsign, label: "Placeholder" },
-                        { src: downtownmtl, label: "Placeholder" },
-                        { src: porthope, label: "Placeholder" },
+                        { src: climb, label: "Climbing" },
+                        { src: gamer, label: "Competing" },
+                        { src: austin, label: "Austin, TX" },
+                        { src: levi, label: "My dog Levi" },
                     ].map(({ src, label }, id) => (
-                        <div key={id} className="relative group overflow-hidden rounded-xl border-2 border-[#222] hover:border-[#d72638]">
+                        <div key={id} className="relative group overflow-hidden rounded-xl border-2 border-[#d72638]">
                             <img
                                 src={src}
                                 alt={label}
-                                className="w-full h-64 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 duration-500"
+                                className="w-full h-64 object-cover group-hover:scale-105 duration-500"
                                 />
                             <div className="absolute bottom-2 left-2 bg-[#111]/30 px-3 py-1 text-sm font-inter rounded-md backdrop-blur-md">
                                 {label}
