@@ -4,7 +4,7 @@ import gitIcon from "../assets/socialLinks/git.png"
 import emailIcon from "../assets/socialLinks/emailicon.png"
 import cntower from "../assets/selfImg/cntower.jpg"
 import downtownmtl from "../assets/selfImg/downtownmtl.jpg"
-import montroyal from "../assets/selfImg/montroyal.jpg"
+import bluemountain from "../assets/selfImg/bluemountain.jpg"
 import mtlsign from "../assets/selfImg/mtlsign.jpg"
 import porthope from "../assets/selfImg/porthope.jpg"
 
@@ -13,7 +13,7 @@ export default function Home() {
     const images = [
         { src: cntower, label: "CN Tower, Toronto" },
         { src: downtownmtl, label: "Downtown, Montreal" }, 
-        { src: montroyal, label: "Mont Royal, Montreal" },
+        { src: bluemountain, label: "Blue Mountain, Ontario" },
         { src: mtlsign, label: "Old Port, Montreal" },
         { src: porthope, label: "Port Hope"}
     ];
@@ -66,7 +66,7 @@ export default function Home() {
                         </p>
                     </section>
                 </div>
-                <div className="w-[35%] h-[45%] overflow-hidden relative rounded-xl border-8 border-[#d72638] bg-[#111]">
+                <div className="w-[25%] overflow-hidden relative rounded-xl border-8 border-[#d72638] bg-[#111]">
                     <img
                         src={images[currentIndex].src}
                         alt="Profile Picture"
