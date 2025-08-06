@@ -26,11 +26,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 bg-[#eee]/5 backdrop-blur p-4 text-[#eee] text-lg flex font-impact transition-transform duration-300 ${
+      className={`fixed top-0 w-full z-50 bg-[#eee]/5 backdrop-blur p-4 text-[#eee] ~lg/sm:~text-xl/base flex font-impact transition-transform duration-300 ${
         visible ? "transform translate-y-0" : "transform -translate-y-full"
       }`}
     >
-      <div className="mx-auto flex w-[60%] justify-evenly">
+      <div className="mx-auto flex w-[100%] md:w-[60%] justify-evenly">
         <Link to="home" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
           Home
         </Link>

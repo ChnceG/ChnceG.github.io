@@ -54,17 +54,17 @@ const SkillsGraph: React.FC<GraphProps> = ({ className, data, title }: GraphProp
             <h1 className="text-xl text-center underline underline-offset-8 decoration-[#d72638]">{title}</h1>
             <div className="flex m-3 h-[450px]">
                 <div className="flex flex-col gap-20 p-2">
-                    <p className="border-b-2 border-[#eee]">Expert</p>
-                    <p className="border-b-2 border-[#eee]">Proficient</p>
-                    <p className="border-b-2 border-[#eee]">Comfortable</p>
-                    <p className="border-b-2 border-[#eee]">Learning</p>
+                    <p className="border-b-2 border-[#eee] ~lg/sm:~text-base/sm">Expert</p>
+                    <p className="border-b-2 border-[#eee] ~lg/sm:~text-base/sm">Proficient</p>
+                    <p className="border-b-2 border-[#eee] ~lg/sm:~text-base/sm">Comfortable</p>
+                    <p className="border-b-2 border-[#eee] ~lg/sm:~text-base/sm">Learning</p>
                 </div>
                 {data.map(({ name, experience, image, colour}) => (
                     <div key={ name } className="flex flex-col justify-end items-center"> 
-                        <div className="flex items-center w-[80px]" style={{ height: `${Number(experience) * 400}px`, backgroundColor: colour }}> 
-                            <img src={imageMap[image]} alt="skill" className="mx-auto w-[60px] h-[60px] "/>
+                        <div className="flex items-center w-[40px] sm:w-[80px]" style={{ height: `${Number(experience) * 400}px`, backgroundColor: colour }}> 
+                            <img src={imageMap[image]} alt="skill" className="mx-auto w-[30px] h-[30px] 2xl:w-[45px] 2xl:h-[45px]   "/>
                         </div>
-                        <p className="text-center border-b-2 border-[#eee]">{ name }</p>
+                        <p className="text-center ~lg/sm:~text-base/sm border-b-2 border-[#eee]">{ name }</p>
                     </div>
                 ))}
             </div>

@@ -37,7 +37,7 @@ const ProjectCarousel: React.FC<ProjectProps> = ({ className }: ProjectProps): J
             <Slider { ...settings }>
                     {projectData.map(({ title, date, image, description, content, link }) => (
                         <div key={title}>
-                            <div className="flex gap-8 items-center bg-[#eee]/5 backdrop-blur-sm p-6 rounded-2xl shadow-lg">
+                            <div className="flex flex-col-reverse md:flex-row gap-8 items-center bg-[#eee]/5 backdrop-blur-sm p-6 rounded-2xl shadow-lg">
                                 <div className="w-1/2">
                                     <img
                                     src={imageMap[image]}
@@ -45,20 +45,20 @@ const ProjectCarousel: React.FC<ProjectProps> = ({ className }: ProjectProps): J
                                     className="w-full aspect-[4/3] object-contain rounded-xl"
                                     />
                                 </div>
-                                <div className="w-1/2 flex flex-col justify-between space-y-4">
-                                    <div className="flex justify-between items-end mb-4">
+                                <div className="md:w-1/2 flex flex-col justify-between space-y-4">
+                                    <div className="flex flex-col lg:flex-row justify-between items-center md:items-end mb-4">
                                         <a
                                         href={link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-3xl font-impact underline underline-offset-4 decoration-[#d72638] hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]"
+                                        className="~lg/sm:~text-3xl/lg font-impact underline underline-offset-4 decoration-[#d72638] hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]"
                                         >
                                             {title}
                                         </a>
-                                        <p className="text-base italic text-zinc-400">{date}</p>
+                                        <p className="~lg/sm:~text-base/sm italic text-zinc-400">{date}</p>
                                     </div>
                                     
-                                    <p className="text-lg text-zinc-200">{description}</p>
+                                    <p className="~lg/sm:~text-lg/base text-zinc-200">{description}</p>
                                     <p className="text-sm text-zinc-400">{content}</p>
                                 </div>
                             </div>

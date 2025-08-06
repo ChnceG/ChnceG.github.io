@@ -9,7 +9,7 @@ export const projectData = [
     },
     {
         title: 'Quickpoll',
-        date: 'January - May 2024',
+        date: 'May 2024',
         image: 'quickpoll',
         description: 'A web app made in a team using NextJS and Golang for creating and sharing polls',
         content: `This was a web app my group made as our Capstone project for school. It was a trial by fire in learning new technologies and working with a team. My main role was in the front-end with NextJS, I helped with the backend however I spent more time researching and learning while working on the frontend.`,
@@ -17,7 +17,7 @@ export const projectData = [
     },
     {
         title: 'Old Portfolio',
-        date: 'January - February 2024',
+        date: 'Feb 2024',
         image: 'oldportfolio',
         description: 'My old portfolio website made using Typescript, React and TailwindCSS.',
         content: "This the third portfolio website I've made. It was my first introduction to using Typescript and React. This was a great learning experience and helped me learn different things I can do with Typescript.",

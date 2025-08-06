@@ -42,23 +42,23 @@ export default function Home() {
 
 
     return (
-        <section className="min-h-screen flex flex-col">
-            <div className="flex-grow flex items-center justify-evenly">
-                <div className="flex flex-col text-center">
-                    <section className="bg-[#eee]/5 backdrop-blur-sm p-4 rounded-xl shadow-lg">
-                        <h1 className="~lg/sm:~text-9xl/4xl mr-32 mb-4 decoration-[#d72638] underline underline-offset-[16px]">Chance</h1>
-                        <h1 className="~lg/sm:~text-9xl/4xl ml-32 mb-8 decoration-[#d72638] underline underline-offset-[16px]">Grandy</h1>
+        <section className="md:min-h-screen flex flex-col">
+            <div className="md:flex-grow flex flex-col md:flex-row items-center justify-evenly">
+                <div className="flex flex-col text-center xl/sm:~w-[40%]/[70%]">
+                    <section className="bg-[#eee]/5 backdrop-blur-sm p-4 rounded-xl shadow-lg m-4 lg:gap-0">
+                        <h1 className="~xl/sm:~text-9xl/4xl ~lg/sm:~mr-32/12 mb-4 decoration-[#d72638] underline underline-offset-[16px]">Chance</h1>
+                        <h1 className="~xl/sm:~text-9xl/4xl ~lg/sm:~ml-32/12 mb-8 decoration-[#d72638] underline underline-offset-[16px]">Grandy</h1>
                         <div className="flex flex-col h-[50px] mx-auto mb-3  font-inter">
-                            <a href="https://www.github.com/chnceg" target="_blank" className="flex gap-2 self-center ~lg/sm:~text-2xl/lg font-bold hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
-                                <img src={gitIcon} alt='Github Icon' className="w-[25px] h-[25px] self-center"/>
+                            <a href="https://www.github.com/chnceg" target="_blank" className="flex gap-2 self-center ~xl/sm:~text-xl/base font-bold hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
+                                <img src={gitIcon} alt='Github Icon' className="~lg/sm:~w-6/4 self-center"/>
                                 chnceg
                             </a>
-                            <a href="mailto:cbgrandy@gmail.com" target="_blank" className="flex self-center items-center ~lg/sm:~text-xl/md font-bold hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
-                                <img src={emailIcon} alt="Email Icon" className="w-6 h-6 mr-2" />
+                            <a href="mailto:cbgrandy@gmail.com" target="_blank" className="flex self-center items-center ~xl/sm:~text-xl/sm font-bold hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
+                                <img src={emailIcon} alt="Email Icon" className="~lg/sm:~w-6/4 mr-2" />
                                 cbgrandy@gmail.com
                             </a>
                         </div>
-                        <p className="~lg/sm:~text-lg/sm">
+                        <p className="~lg/sm:~text-lg/sm text-wrap">
                             Full-stack dev | Recent Graduate | Constantly learning
                         </p>
                         <p className="~lg/sm:~text-lg/sm italic my-2 text-zinc-400">
@@ -66,18 +66,18 @@ export default function Home() {
                         </p>
                     </section>
                 </div>
-                <div className="w-[25%] overflow-hidden relative rounded-xl border-8 border-[#d72638] bg-[#111]">
+                <div className="w-[40%] md:w-[25%] overflow-hidden relative rounded-xl border-8 border-[#d72638] bg-[#111]">
                     <img
                         src={images[currentIndex].src}
                         alt="Profile Picture"
                         className={`w-full h-full object-cover object-center overflow-hidden transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}
                     />
-                    <div className="absolute bottom-2 left-2 bg-[#111]/30 px-3 py-1 text-sm font-inter rounded-md backdrop-blur-md">
+                    <div className="invisible sm:visible absolute bottom-2 left-2 bg-[#111]/30 px-3 py-1 text-sm font-inter rounded-md backdrop-blur-md">
                         {images[currentIndex].label}
                     </div>
                 </div>
             </div>
-            <div className="w-full h-[20%] flex justify-evenly py-6 gap-12 underline underline-offset-8 decoration-[#d72638] font-impact ~lg/sm:~text-4xl/lg">
+            <div className="w-full h-[20%] flex justify-evenly py-6 gap-6 md:gap-12 underline underline-offset-8 decoration-[#d72638] font-impact ~lg/sm:~text-4xl/lg">
                 <Link
                     to="skills"
                     smooth={true}
