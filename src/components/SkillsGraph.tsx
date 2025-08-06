@@ -61,10 +61,10 @@ const SkillsGraph: React.FC<GraphProps> = ({ className, data, title }: GraphProp
                 </div>
                 {data.map(({ name, experience, image, colour}) => (
                     <div key={ name } className="flex flex-col justify-end items-center"> 
-                        <div className="flex items-center w-[40px] sm:w-[80px]" style={{ height: `${Number(experience) * 400}px`, backgroundColor: colour }}> 
-                            <img src={imageMap[image]} alt="skill" className="mx-auto w-[30px] h-[30px] 2xl:w-[45px] 2xl:h-[45px]   "/>
+                        <div className="flex items-center ~lg/sm:~w-20/10" style={{ height: `${Number(experience) * 400}px`, backgroundColor: colour }}> 
+                            <img src={imageMap[image]} alt="skill" className="mx-auto ~lg/sm:~w-11/7"/>
                         </div>
-                        <p className="text-center ~lg/sm:~text-base/sm border-b-2 border-[#eee]">{ name }</p>
+                        <p className="text-center ~lg/sm:~text-base/xs border-b-2 border-[#eee]">{ name }</p>
                     </div>
                 ))}
             </div>

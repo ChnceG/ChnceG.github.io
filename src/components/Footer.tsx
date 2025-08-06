@@ -13,7 +13,7 @@ export default function Footer() {
                 <h1 className="text-center px-2"> Chance G. 2025 </h1>
                 <hr className="border-b w-[25%] translate-y-[0.6rem]"></hr>
             </div>
-            <div className="flex w-[40%] justify-evenly font-impact mb-4">
+            <div className="flex w-[100%] md:w-[40%] justify-evenly font-impact mb-4">
                 <Link to="skills" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
                     Skills
                 </Link>

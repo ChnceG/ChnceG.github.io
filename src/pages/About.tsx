@@ -6,7 +6,7 @@ import levi from "../assets/selfImg/levi.jpg"
 export default function About() {
     return (
         <section className="min-h-screen flex flex-col justify-center items-center">
-            <h1 className="~lg/sm:~text-5xl/xl text-center underline underline-offset-8 decoration-[#d72638] mb-16">About me</h1>
+            <h1 className="~lg/sm:~text-5xl/2xl text-center underline underline-offset-8 decoration-[#d72638] mb-16">About me</h1>
             <div className="flex items-center flex-col lg:flex-row gap-4 lg:gap-0 justify-evenly w-full mx-auto">
                 <div className="max-w-xl bg-[#eee]/5 backdrop-blur-sm p-6 rounded-xl shadow-lg mx-4 lg:mx-0">
                     <h1 className="~lg/sm:~text-2xl/base mb-4 underline underline-offset-[12px] decoration-[#d72638]">Work</h1>
@@ -26,7 +26,7 @@ export default function About() {
                         { src: climb, label: "Climbing" },
                         { src: gamer, label: "Competing" },
                         { src: austin, label: "Austin, TX" },
-                        { src: levi, label: "My dog Levi" },
+                        { src: levi, label: "Levi" },
                     ].map(({ src, label }, id) => (
                         <div key={id} className="w-[50%] sm:w-[100%] mx-auto relative group overflow-hidden rounded-xl border-2 border-[#d72638]">
                             <img
@@ -34,7 +34,7 @@ export default function About() {
                                 alt={label}
                                 className="sm:w-[100%] sm:h-64 sm:object-cover group-hover:scale-105 duration-500"
                                 />
-                            <div className="invisible sm:visible absolute bottom-2 left-2 bg-[#111]/30 px-3 py-1 text-sm font-inter rounded-md backdrop-blur-md">
+                            <div className="~md/sm:~text-sm/xs absolute bottom-2 left-2 bg-[#111]/30 px-2 py-1 font-inter rounded-md backdrop-blur-md">
                                 {label}
                             </div>
                         </div>
