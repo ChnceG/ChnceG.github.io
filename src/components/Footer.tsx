@@ -23,9 +23,6 @@ export default function Footer() {
                 <Link to="about" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
                     About
                 </Link>
-                {/* <Link to="contact" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-[#d72638] hover:scale-105 duration-300">
-                    Contact
-                </Link> */}
             </div>
         </footer>
     )

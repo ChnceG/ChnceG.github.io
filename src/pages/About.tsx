@@ -11,8 +11,8 @@ export default function About() {
                 <div className="max-w-xl bg-[#eee]/5 backdrop-blur-sm p-6 rounded-xl shadow-lg mx-4 lg:mx-0">
                     <h1 className="~lg/sm:~text-2xl/base mb-4 underline underline-offset-[12px] decoration-[#d72638]">Work</h1>
                     <p className="~lg/sm:~text-lg/sm mb-4 text-zinc-400 leading-relaxed">
-                        I'm Chance, a recently graduated full-stack developer from Nova Scotia with a focus on making cool things and learning.
-                        Whether it's making creative UIs or diving in on the backend, I enjoy building things that work well and look good.
+                        I'm Chance, a recently graduated full-stack developer from Nova Scotia with a focus on continuous learning.
+                        Whether it's making creative UIs or diving in on the backend, all I want to do is build cool things that work well and look good.
                     </p>
                     <h1 className="~lg/sm:~text-2xl/base mb-4 underline underline-offset-[12px] decoration-[#d72638]">Hobbies</h1>
                     <p className="~lg/sm:~text-lg/sm text-zinc-400 leading-relaxed">

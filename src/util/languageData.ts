@@ -12,20 +12,20 @@ export const languageData = [
         colour: '#4795de',
     },
     {
-        name: 'TS',
-        experience: '0.55',
+        name: 'JS/TS',
+        experience: '0.7',
         image: 'typescript',
         colour: '#007acc',
     },
     {
         name: 'SQL',
-        experience: '0.65',
+        experience: '0.6',
         image: 'sql',
         colour: '#629991',
     },
     {
         name: 'C/C++',
-        experience: '.55',
+        experience: '.5',
         image: 'cplusplus',
         colour: '#a8b9cc',
     }
