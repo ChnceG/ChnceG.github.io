@@ -15,15 +15,15 @@ export default function Contact() {
                 <div className="~lg/sm:~text-xl/base flex flex-col gap-8">
                     <a href="mailto:cbgrandy@gmail.com" className="w-fit flex gap-6 group hover:scale-105 duration-300">
                         <img src={emailIcon} alt="Email Icon" className="~lg/sm:~w-10/6" />
-                        <p className="my-auto group-hover:text-[#d72638] group-active:text-[#000]">cbgrandy@gmail.com</p>
+                        <p className="my-auto ~lg/sm:~text-lg/sm group-hover:text-[#d72638] group-active:text-[#000]">cbgrandy@gmail.com</p>
                     </a>
                     <a href="https://www.linkedin.com/in/chnceg/" target="_blank" rel="noreferrer" className="w-fit flex gap-6 group hover:scale-105 duration-300">
                         <img src={linkedIcon} alt='LinkedIn Icon' className="~lg/sm:~w-10/6" />
-                        <p className="my-auto group-hover:text-[#d72638] group-active:text-[#000]">chnceg</p>
+                        <p className="my-auto ~lg/sm:~text-lg/sm group-hover:text-[#d72638] group-active:text-[#000]">chnceg</p>
                     </a>
                     <a href="https://www.github.com/chnceg" target="_blank" rel="noreferrer" className="w-fit flex gap-6 group hover:scale-105 duration-300">
                         <img src={gitIcon} alt='GitHub Icon' className="~lg/sm:~w-10/6" />
-                        <p className="my-auto group-hover:text-[#d72638] group-active:text-[#000]">chnceg</p>
+                        <p className="my-auto ~lg/sm:~text-lg/sm group-hover:text-[#d72638] group-active:text-[#000]">chnceg</p>
                     </a>
                 </div>
             </div>

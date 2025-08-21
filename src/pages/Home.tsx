@@ -9,10 +9,9 @@ import mtlsign from "../assets/selfImg/mtlsign.jpg"
 import porthope from "../assets/selfImg/porthope.jpg"
 
 export default function Home() {
-    // const images = [cntower, downtownmtl, montroyal, mtlsign, porthope];
     const images = [
-        { src: cntower, label: "CN Tower, Toronto" },
-        { src: downtownmtl, label: "Downtown, Montreal" }, 
+        { src: cntower, label: "CN Tower" },
+        { src: downtownmtl, label: "Downtown Montreal" }, 
         { src: bluemountain, label: "Blue Mountain, Ontario" },
         { src: mtlsign, label: "Old Port, Montreal" },
         { src: porthope, label: "Port Hope"}
@@ -21,14 +20,6 @@ export default function Home() {
     const [fade, setFade] = useState(false);
 
     useEffect(() => {
-    //     const preloadImages = () => {
-    //         images.forEach((image) => {
-    //             new Image().src = image;
-    //         });
-    //     };
-
-        // preloadImages();
-
         const interval = setInterval(() => {
             setFade(false);
             setTimeout(() => {

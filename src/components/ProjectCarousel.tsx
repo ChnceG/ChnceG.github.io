@@ -3,6 +3,7 @@ import { projectData } from "../util/projectData";
 import nsccbot from '../assets/projectScreenshots/nsccbot.png';
 import quickpoll from '../assets/projectScreenshots/quickpoll.png';
 import oldportfolio from '../assets/projectScreenshots/oldportfolio.png';
+import fireapp from '../assets/projectScreenshots/fireapp.png';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -17,7 +18,8 @@ type ImageMap = {
 const imageMap: ImageMap = {
     nsccbot,
     quickpoll,
-    oldportfolio
+    oldportfolio,
+    fireapp
 }
 
 const settings = {
