@@ -1,11 +1,11 @@
 export const projectData = [
     {
-        title: 'Fire Incidents NS',
+        title: 'Fire Incidents NS [WIP]',
         date: 'Aug 2025',
         image: 'fireapp',
         description: 'Mobile app made with an Expo in React Native frontend and a Node.js backend which takes from an RSS feed',
         content: "This is an app I made that my friend had the idea for, which takes all incidents the fire department handles from the Halifax official website, puts it into a feed that can be controlled through filters, the intention is to have the ability to get notified if an incident happens close to a loved one.",
-        link: '',
+        link: 'https://github.com/ChnceG/Fire-Incidents-NS',
     },
     {
         title: 'Quickpoll',
