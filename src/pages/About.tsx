@@ -11,16 +11,13 @@ export default function About() {
                 <div className="max-w-xl bg-[#eee]/5 backdrop-blur-sm p-6 rounded-xl shadow-lg mx-4 lg:mx-0">
                     <h1 className="~lg/sm:~text-2xl/base mb-4 underline underline-offset-[12px] decoration-[#d72638]">Work</h1>
                     <p className="~lg/sm:~text-lg/sm mb-4 text-zinc-400 leading-relaxed">
-                        I'm Chance, a recently graduated full-stack developer from Nova Scotia with a focus on continuous learning.
-                        Whether it's making creative UIs or diving in on the backend, all I want to do is build cool things that work well and look good.
+                        I'm Chance, a recently graduated full-stack developer from Nova Scotia with a focus on continuous learning. Whether it's making creative UIs or diving in on the backend, all I want to do is build cool things that work well and look good.
                     </p>
                     <h1 className="~lg/sm:~text-2xl/base mb-4 underline underline-offset-[12px] decoration-[#d72638]">Hobbies</h1>
                     <p className="~lg/sm:~text-lg/sm text-zinc-400 leading-relaxed">
-                        Outside of coding, I'm into gaming, newly into rock climbing, and traveling.
-                        I played competitive Counter-Strike, and have played in a few tournaments across Canada and earned a bit of prize money. The feeling of competing in person is unmatched and feels like a multiple day adrenaline dump.
+                        Outside of coding, I enjoy gaming, rock climbing, and traveling. I have competed in Counter-Strike tournaments across Canada and have even won prize money. Competing in person is unmatched, it's always a fun challenge and has a sense of community.
                     </p>
                 </div>
-
                 <div className="grid grid-cols-2 gap-4 mb-24">
                     {[
                         { src: climb, label: "Climbing" },
@@ -28,11 +25,11 @@ export default function About() {
                         { src: austin, label: "Austin, TX" },
                         { src: levi, label: "Levi" },
                     ].map(({ src, label }, id) => (
-                        <div key={id} className="w-[50%] sm:w-[100%] mx-auto relative group overflow-hidden rounded-xl border-2 border-[#d72638]">
+                        <div key={id} className="w-[80%] sm:w-[100%] mx-auto relative group overflow-hidden rounded-xl border-2 border-[#d72638]">
                             <img
                                 src={src}
                                 alt={label}
-                                className="sm:w-[100%] sm:h-64 sm:object-cover group-hover:scale-105 duration-500"
+                                className="w-full h-64 object-cover group-hover:scale-105 duration-500"
                                 />
                             <div className="~md/sm:~text-sm/xs absolute bottom-2 left-2 bg-[#111]/30 px-2 py-1 font-inter rounded-md backdrop-blur-md">
                                 {label}

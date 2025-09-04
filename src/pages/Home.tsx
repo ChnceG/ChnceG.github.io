@@ -34,11 +34,11 @@ export default function Home() {
 
     return (
         <section className="md:min-h-screen flex flex-col">
-            <div className="md:flex-grow flex flex-col md:flex-row items-center justify-evenly">
-                <div className="flex flex-col text-center xl/sm:~w-[40%]/[70%]">
+            <div className="md:flex-grow flex flex-col lg:flex-row items-center justify-evenly">
+                <div className="flex flex-col text-center lg:w-[45%] md:w-[60%] sm:w-[70%] w-[90%]">
                     <section className="bg-[#eee]/5 backdrop-blur-sm p-4 rounded-xl shadow-lg m-4 lg:gap-0">
-                        <h1 className="~xl/sm:~text-9xl/4xl ~lg/sm:~mr-32/12 mb-4 decoration-[#d72638] underline [text-underline-offset:clamp(4px,1vw,16px)]">Chance</h1>
-                        <h1 className="~xl/sm:~text-9xl/4xl ~lg/sm:~ml-32/12 mb-8 decoration-[#d72638] underline [text-underline-offset:clamp(4px,1vw,16px)]">Grandy</h1>
+                        <h1 className="~xl/sm:~text-9xl/5xl ~lg/sm:~mr-32/12 mb-4 decoration-[#d72638] underline [text-underline-offset:clamp(4px,1vw,16px)]">Chance</h1>
+                        <h1 className="~xl/sm:~text-9xl/5xl ~lg/sm:~ml-32/12 ~xl/sm:~mb-8/4 decoration-[#d72638] underline [text-underline-offset:clamp(4px,1vw,16px)]">Grandy</h1>
                         <div className="flex flex-col h-[50px] mx-auto mb-3  font-inter">
                             <a href="https://www.github.com/chnceg" target="_blank" className="flex gap-2 self-center ~xl/sm:~text-xl/base font-bold hover:text-[#d72638] hover:scale-105 duration-300 active:text-[#000]">
                                 <img src={gitIcon} alt='Github Icon' className="~lg/sm:~w-6/4 self-center"/>
@@ -57,7 +57,7 @@ export default function Home() {
                         </p>
                     </section>
                 </div>
-                <div className="w-[40%] md:w-[25%] overflow-hidden relative rounded-xl border-8 border-[#d72638] bg-[#111]">
+                <div className="w-[55%] sm:w-[40%] md:w-[35%] lg:w-[25%] xl:w-[25%] overflow-hidden relative rounded-xl border-8 border-[#d72638] bg-[#111]">
                     <img
                         src={images[currentIndex].src}
                         alt="Profile Picture"
