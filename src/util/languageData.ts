@@ -28,5 +28,11 @@ export const languageData = [
         experience: '.5',
         image: 'cplusplus',
         colour: '#a8b9cc',
+    },
+    {
+        name: 'C#',
+        experience: '.45',
+        image: 'csharp',
+        colour: '#00806f',
     }
 ];

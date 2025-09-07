@@ -4,6 +4,7 @@ import "../index.css"
 import git from '../assets/socialLinks/git.png';
 import gittool from '../assets/devImg/gittool.png';
 import cplusplus from '../assets/devImg/cplusplus.png';
+import csharp from '../assets/devImg/csharp.png';
 import css from '../assets/devImg/css.png';
 import docker from '../assets/devImg/docker.png';
 import java from '../assets/devImg/java.png';
@@ -36,6 +37,7 @@ const imageMap: ImageMap = {
     git,
     gittool,
     cplusplus,
+    csharp,
     css,
     docker,
     java,

@@ -12,7 +12,7 @@ export const frameworksData = [
         colour: '#57e9ff',
     },
     {
-        name: 'Avalonia',
+        name: 'AvUI',
         experience: '0.4',
         image: 'avalonia',
         colour: '#64fabe',
