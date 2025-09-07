@@ -7,14 +7,14 @@ export const frameworksData = [
     },
     {
         name: 'Vue',
-        experience: '0.4',
+        experience: '0.5',
         image: 'vue',
         colour: '#57e9ff',
     },
     {
-        name: 'Node',
-        experience: '0.6',
-        image: 'node',
+        name: 'Avalonia',
+        experience: '0.4',
+        image: 'avalonia',
         colour: '#64fabe',
     }
 ];

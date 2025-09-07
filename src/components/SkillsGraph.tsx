@@ -7,7 +7,7 @@ import cplusplus from '../assets/devImg/cplusplus.png';
 import css from '../assets/devImg/css.png';
 import docker from '../assets/devImg/docker.png';
 import java from '../assets/devImg/java.png';
-import node from '../assets/devImg/node.png';
+import avalonia from '../assets/devImg/avalonia.png';
 import post from '../assets/devImg/post.png';
 import react from '../assets/devImg/react.png';
 import sql from '../assets/devImg/sql.png';
@@ -39,7 +39,7 @@ const imageMap: ImageMap = {
     css,
     docker,
     java,
-    node,
+    avalonia,
     post,
     react,
     sql,
